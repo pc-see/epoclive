@@ -1,0 +1,47 @@
+#!/usr/bin/python
+import argparse
+import runpy
+import sys
+
+parser = argparse.ArgumentParser(description="epoc live data stream",
+        usage="epoclive [--args]")
+
+parser.add_argument(
+        "--fft",dest="isrunfft",action="store_true",
+        help="run FFT analysis")
+parser.add_argument(
+        "--get-data",dest="isgetdata",action="store_true",
+        help="read data from sensors",)
+parser.add_argument(
+        "--hht",dest="isrunhht",action="store_true",
+        help="run HHT analysis",)
+parser.add_argument(
+        "--setup",dest="isrunsetup",action="store_true",
+        help="setup epoc live",)
+parser.add_argument(
+        "--ssvep",dest="isrunssvepd",action="store_true",
+        help="steady-state visually evoked potential",)
+parser.add_argument(
+        "--stft",dest="isrunstft",action="store_true",
+        help="run STFT analysis",)
+parser.add_argument(
+        "--wavelet",dest="isrunwavelet",action="store_true",
+        help="show wavelet transform",)
+parser.add_argument(
+        "-a",dest="isallsensor",action="store_true",
+        help="all sensors",)
+parser.add_argument(
+        "-c",metavar="",dest="channel",action="store",
+        help="channel of sensor",)
+parser.add_argument(
+        "-d",metavar="",dest="duration",action="store",
+        help="total duration",)
+parser.add_argument(
+        "-i",metavar="",dest="input",action="store",
+        help="path to get input",)
+parser.add_argument(
+        "-o",metavar="",dest="output",action="store",
+        help="path to store output",)
+
+sys.argv,_ = parser.parse_known_args()
+runpy.run_module("interface")
