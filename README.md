@@ -5,10 +5,6 @@ Stream data from Epoc headset and perform BCI analysis.
 
 Epoclive in action: [Hjernestyrt drone (showing Epoclive running in the background)](https://tv.nrk.no/serie/distriktsnyheter-midtnytt/DKTL98081015/10-08-2015#t=59s)
 
-Content
-* Using Epoclive
-* Media coverage
-
 Using Epoclive
 --------------
 
