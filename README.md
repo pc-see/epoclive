@@ -3,8 +3,12 @@ Epoclive
 
 Stream data from Epoc headset and perform BCI analysis.
 
-To use Epoclive
----------------
+Content
+* Using Epoclive
+* Media coverage
+
+Using Epoclive
+--------------
 
 ```
 $ epoc -h
