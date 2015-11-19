@@ -3,6 +3,8 @@ Epoclive
 
 Stream data from Epoc headset and perform BCI analysis.
 
+Epoclive in action: [Hjernestyrt drone (showing Epoclive running in the background)](https://tv.nrk.no/serie/distriktsnyheter-midtnytt/DKTL98081015/10-08-2015#t=59s)
+
 Content
 * Using Epoclive
 * Media coverage
@@ -43,7 +45,7 @@ $ epoc --get-data -a
 Media coverage
 --------------
 
-Epoclive has appeared in the media:
+Epoclive has appeared in the media, see links below.
 
 * [Think a thought and then take flight](http://gemini.no/en/2015/09/think-a-thought-and-then-take-flight/)
 * [Tenk tanken - og fly av gårde] (http://www.abcnyheter.no/livet/2015/09/06/194870294/tenk-tanken-og-fly-av-garde)
